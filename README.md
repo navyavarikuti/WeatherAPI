@@ -21,4 +21,4 @@ A responsive weather application built using HTML, CSS, and JavaScript that fetc
 
 ## 📷 Screenshot
 
-![Weather App](screenshot.png)
+![Image_alt](WeatherAPI.png)
