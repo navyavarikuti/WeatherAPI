@@ -22,3 +22,20 @@ A responsive weather application built using HTML, CSS, and JavaScript that fetc
 ## 📷 Screenshot
 
 ![Image_alt](WeatherAPI.png)
+
+## 📚 What I Learned
+
+- Working with REST APIs
+- Fetch API and asynchronous JavaScript
+- Handling JSON data
+- DOM manipulation
+- Error handling
+- Responsive web design
+
+## 👨‍💻 Author
+
+Navya Varikuti
+
+GitHub: https://github.com/navyavarikuti
+
+LinkedIn: https://www.linkedin.com/in/navyavarikuti/
