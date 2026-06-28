@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #0f172a, #1e3a8a, #38bdf8);
+}
+
+#app{
+    width: 380px;
+    padding: 30px;
+    border-radius: 25px;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+    text-align: center;
+    color: white;
+}
+
+#searchBar{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+#SearchBarInput{
+    flex: 1;
+    padding: 14px 18px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    font-size: 16px;
+}
+
+#SearchBarInput::placeholder{
+    color: rgba(255,255,255,0.7);
+}
+
+#searchIcon{
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    color: #1e3a8a;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+#searchIcon:hover{
+    transform: scale(1.1);
+    background: #38bdf8;
+    color: white;
+}
+
+#date{
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 8px;
+}
+
+#city{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#description{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+#temp{
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#extraInfo{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+#col{
+    flex: 1;
+    background: rgba(255,255,255,0.15);
+    padding: 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+#col:hover{
+    transform: translateY(-5px);
+    background: rgba(255,255,255,0.25);
+}
+
+#info h5{
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #dbeafe;
+}
+
+#tempMax,
+#tempMin{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+@media (max-width: 450px){
+    #app{
+        width: 90%;
+        padding: 20px;
+    }
+
+    #temp{
+        font-size: 55px;
+    }
+
+    #city{
+        font-size: 26px;
+    }
+}
